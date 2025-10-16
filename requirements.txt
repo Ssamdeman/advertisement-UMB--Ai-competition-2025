@@ -1,0 +1,38 @@
+openai==1.3.0
+python-dotenv==1.0.0
+Pillow==10.1.0
+```
+
+**Step 2.6** - Create `.gitignore` (in project root):
+```
+node_modules/
+.env
+*.pyc
+__pycache__/
+dist/
+build/
+.DS_Store
+uploads/
+```
+
+---
+
+
+```
+your-project/
+├── .devcontainer/
+│   ├── devcontainer.json
+│   └── Dockerfile
+├── backend/
+│   ├── package.json
+│   ├── .env
+│   └── src/
+│       ├── routes/
+│       └── utils/
+├── frontend/
+│   ├── package.json
+│   └── src/
+│       └── components/
+├── python-ai/
+├── requirements.txt
+└── .gitignore
